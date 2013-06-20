@@ -12,7 +12,7 @@ weatherAPI
 
 搞个天气预报怎么这么悲催，我看别人挺 easy 的呀！
 
-无耐继续找啊找......换个策略，看看有没有 php 写的 jsonp 接口，我找个服务器托管；啊哈，发现了这位哥的代码：https://github.com/lyonna/php-weather-info-cn，可是还不是 jsonp 的，唉...想省力好难啊，请教请教朋友，自己改个 jsonp 接口吧。
+无耐继续找啊找......换个策略，看看有没有 php 写的 jsonp 接口，我找个服务器托管；啊哈，发现了这位哥的代码：[https://github.com/lyonna/php-weather-info-cn](https://github.com/lyonna/php-weather-info-cn)，可是还不是 jsonp 的，唉...想省力好难啊，请教请教朋友，自己改个 jsonp 接口吧。
 
 以下是我改完的 jsonp 接口（接口托管在 BAE 上）：
 
@@ -28,6 +28,8 @@ http://jinlongz.duapp.com/weather.php?cid=101010100&callback=cb
 
 * 实时接口：
 http://jinlongz.duapp.com/weatherLive.php?cid=101010100&callback=cb
+
+>再次感谢这位兄台：[lyonna](https://github.com/lyonna/php-weather-info-cn)
 
 
 
